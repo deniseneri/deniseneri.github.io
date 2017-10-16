@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1320"
+	viewport="0 0 760 1320">
+	<defs>
+		<style type="text/css"><![CDATA[svg {padding:0;margin:0;spacing:0;}polygon, polyline {fill-opacity:0;stroke:white;stroke-width:120px;stroke-linecap:square;}]]></style>
+	</defs>
+	<polygon points="380,360 640,510 640,810 380,960 120,810 120,510" />
+	<polyline points="0,300 260,150 260,0" />
+	<polyline points="500,0 500,150 760,300" />
+	<polyline points="760,1020 500,1170 500,1320" />
+	<polyline points="260,1320 260,1170 0,1020" />
+</svg>
