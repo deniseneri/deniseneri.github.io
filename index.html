@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#a43">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Denise Neri, psiquiatra em Belo Horizonte. Rua da Bahia, 1345 sl 1902. Telefone e WhatsApp: +55 (31) 99430-0088">
+    <title>Denise Neri - Psiquiatra</title>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-92671672-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<style>
+		/* Color palette: b20,052,035*/
+
+		* {box-sizing: border-box;}
+		html {height:100%;}
+		body {padding:0;margin:0;color:#123;font-family:Arial,Tahoma,sans-serif;font-size:12px;background:white;line-height:1.4em;}
+		table {border-spacing:0;}
+
+		h1, h2, h3 {padding:0;margin:.2rem 0;font-weight:normal;line-height:1.1em;}
+		h1 {font-size:2rem;color:#a43;}
+		h2 {font-size:1.5rem;}
+		h3 {font-size:1.2rem;}
+		a {text-decoration:none;}
+
+		div#main {background:#a43;background-size:2em 3.47em;}
+		div#main {background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9Ijc2MCIgaGVpZ2h0PSIxMzIwIiB2aWV3cG9ydD0iMCAwIDc2MCAxMzIwIj48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBW3N2ZyB7cGFkZGluZzowO21hcmdpbjowO3NwYWNpbmc6MDt9cG9seWdvbiwgcG9seWxpbmUge2ZpbGwtb3BhY2l0eTowO3N0cm9rZTp3aGl0ZTtzdHJva2Utd2lkdGg6MTIwcHg7c3Ryb2tlLWxpbmVjYXA6c3F1YXJlO31dXT48L3N0eWxlPjwvZGVmcz48cG9seWdvbiBwb2ludHM9IjM4MCwzNjAgNjQwLDUxMCA2NDAsODEwIDM4MCw5NjAgMTIwLDgxMCAxMjAsNTEwIi8+PHBvbHlsaW5lIHBvaW50cz0iMCwzMDAgMjYwLDE1MCAyNjAsMCIvPjxwb2x5bGluZSBwb2ludHM9IjUwMCwwIDUwMCwxNTAgNzYwLDMwMCIvPjxwb2x5bGluZSBwb2ludHM9Ijc2MCwxMDIwIDUwMCwxMTcwIDUwMCwxMzIwIi8+PHBvbHlsaW5lIHBvaW50cz0iMjYwLDEzMjAgMjYwLDExNzAgMCwxMDIwIi8+PC9zdmc+);}
+
+		header {margin-bottom:1em;padding:0;box-shadow:0 1px 2px black;background:white;}
+		header>div {padding:1em;}
+		header>div>img {float:left;width:8em;height:8em;margin:0 1em 0 0;background:#a43;border:.2em solid #a43;border-radius:1.5em;box-shadow:1px 1px 2px grey;}
+
+		div.card {padding:1em;margin:0 0 1em 0;box-shadow:1px 1px 2px black;background:white;}
+		div.card a.phone {color:#052;}
+		div.card a.address {color:#035;}
+		div.card svg.icon {width:2.4em;height:2.4em;margin:0 .7em 0 0;vertical-align:middle;float:left;}
+
+		iframe.gmap {border:0;margin:1em 0 0;width:100%;height:15em;}
+
+		div.schedule>table {width:100%;margin:1em 0;}
+		div.schedule>table th, div.card.schedule>table td {text-align:center;margin:0;padding:.5em 1em;border-bottom:1px solid lightgrey;}
+		div.schedule>table td.closed {color:#aaa;font-style:italic;}
+
+ 		div.card ul {padding:0;list-style:circle outside url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 10 10' preserveAspectRatio='xMidYMid meet'><text x='0' y='10' fill='#a43'>\2713</text></svg>");}
+		div.card ul>li {margin:.5em 1.5em;}
+
+		footer {padding:1em;clear:both;background:white;box-shadow:0 -1px 1px rgba(0, 0, 0, 0.5);}
+		footer svg.link {width:2em;height:2em;margin-right:.3em;}
+
+		@media screen and (min-width: 375px) {
+			body {font-size:14px;}
+		}
+		@media screen and (min-width: 450px) {
+			body {font-size:16px;}
+			header>div, div#center {max-width:450px;margin-left:auto;margin-right:auto;}
+			div#col1, div#col2, div#col3 {width:450px;}
+		}
+		@media screen and (min-width: 916px) {
+			div#center {max-width:916px;}
+			div#col1 {float:right;}
+		}
+		@media screen and (min-width: 1020px) {
+			body {font-size:20px;}
+			header>div {max-width:500px;}
+			div#center {max-width:1020px;}
+			div#col1, div#col2, div#col3 {width:500px;}
+		}
+		@media screen and (min-width: 1540px) {
+			div#center {max-width:1540px;}
+			div#col2, div#col3 {float:left;}
+			div#col3 {margin-left:20px;}
+		}
+	</style>
+</head>
+<body>
+
+<div id="main">
+	<header><div>
+		<img src="photo.jpg">
+		<h1>Denise Neri</h1>
+		<h2>Psiquiatra</h2>
+		<h3>CRM MG 56183</h3>
+		<div style="clear:both;"></div>
+	</div></header>
+
+	<div id="center">
+		<div id="col1">
+			<div class="card"><a href="tel:+5531994300088" class="phone"><div>
+				<svg version="1.1" viewBox="0 0 190 190" xmlns="http://www.w3.org/2000/svg" class="icon">
+					<title>Telefone</title>
+					<path fill="none" stroke="currentColor" stroke-width="10" d="m180.63 94.749c0 46.307-37.539 83.847-83.847 83.847-15.556 0-30.122-4.2361-42.608-11.618l-38.455 8.6683 8.9876-38.03c-7.4765-12.544-11.771-27.204-11.771-42.867-2e-6 -46.307 37.539-83.847 83.847-83.847 46.307 1e-6 83.847 37.539 83.847 83.847z"/>
+					<path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="m138.12 125.48c-29.069 39.305-113.79-49.269-74.275-70.125l7.2113 0.44534 9.0823 21.434-8.6345 10.457c8.6113 16.021 20.15 26.987 37.144 32.186l11.016-13.289 20.126 10.099z"/>
+				</svg>
+				+55 (31) 99430-0088<br>(também no WhatsApp)
+			</div></a></div>
+
+			<div class="card">
+				<a href="https://www.google.com/maps/place/Denise+de+Oliveira+Neri/@-19.9267389,-43.9400056,17z/data=!3m1!4b1!4m5!3m4!1s0xa699e6dd3b894d:0xd3ef23abcd3f230!8m2!3d-19.9267389!4d-43.9378169" class="address"><div>
+					<svg version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="icon">
+						<title>Endereço</title>
+						<g transform="translate(0 -197)">
+							<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m50 294.46c-0.98443-19.373-6.8316-33.106-12.194-41.428-7.8483-12.179-13.306-17.405-13.306-27.92 0-14.148 11.417-25.616 25.5-25.616m0 94.964c0.98443-19.373 6.8316-33.106 12.194-41.428 7.8483-12.179 13.306-17.405 13.306-27.92 0-14.148-11.417-25.616-25.5-25.616"/>
+							<circle fill="currentColor" cx="50" cy="225" r="9.5"/>
+						</g>
+					</svg>
+					Rua da Bahia, 1345 (sala 1902)<br>Lourdes - Belo Horizonte - MG
+				</div></a> 
+				<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10609.266409448426!2d-43.94401188398938!3d-19.92684414523874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e6dd3c872b%3A0x57b7bd7e4de621bf!2sR.+da+Bahia%2C+1345+-+Centro%2C+Belo+Horizonte+-+MG%2C+Brasil!5e0!3m2!1spt-BR!2sus!4v1488123980200"></iframe>
+				<!-- <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m0!3m2!1spt-BR!2sbr!4v1486817631317!6m8!1m7!1sbczUJq3OHIUv51JIfEsIIg!2m2!1d-19.92672510119911!2d-43.93796115005645!3f105.30165257476388!4f-1.4006418568682193!5f0.824555782433996" allowfullscreen></iframe>-->
+			</div>
+		</div>
+
+		<div id="col2">
+			<div class="card schedule">
+				Horários de atendimento:<br>
+				<table>
+					<tr><th>Domingo:</th><td class="closed">Fechado</td></tr>
+					<tr><th>Segunda:</th><td class="closed">Fechado</td></tr>
+					<tr><th>Terça:</th><td>8:00 às 17:00</td></tr>
+					<tr><th>Quarta:</th><td class="closed">Fechado</td></tr>
+					<tr><th>Quinta:</th><td>7:00 às 12:00</td></tr>
+					<tr><th>Sexta:</th><td class="closed">Fechado</td></tr>
+					<tr><th>Sábado:</th><td class="closed">Fechado</td></tr>
+				</table>
+				Faço consultas particulares e atendo planos da <a href="www.careplus.com.br">Care Plus</a>.
+			</div>
+		</div>
+
+		<div id="col3">
+			<div class="card address">
+				Doenças e distúrbios tratados:
+				<ul>
+					<li>Alcoolismo</li>
+					<li>Dependência Química</li>
+					<li>Depressão</li>
+					<li>Esquizofrenia e Transtornos com Características Psicóticas</li>
+					<li>Transtorno bipolar</li>
+					<li>Transtorno da Ansiedade</li>
+					<li>Transtorno de Pânico</li>
+					<li>Transtorno Obsessivo-Compulsivo</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both;height:1em;"></div>
+</div>
+
+<footer>
+	<a href="https://www.facebook.com/DeniseNeriPsiquiatra/"><svg version="1.1" viewBox="0 0 266.893 266.895" xmlns="http://www.w3.org/2000/svg" class="link">
+		<title>Facebook</title>
+		<path fill="#359" d="M248.082,262.307c7.854,0,14.223-6.369,14.223-14.225V18.812 c0-7.857-6.368-14.224-14.223-14.224H18.812c-7.857,0-14.224,6.367-14.224,14.224v229.27c0,7.855,6.366,14.225,14.224,14.225 H248.082z"/>
+		<path fill="#fff" d="M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935 l20.596-0.009V45.045c-3.562-0.474-15.788-1.533-30.012-1.533c-29.695,0-50.025,18.126-50.025,51.413v28.684h-33.585v38.895h33.585 v99.803H182.409z"/>
+	</svg></a>
+	<a href="http://www.doctoralia.com.br/medico/neri+denise-14906843"><svg version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="link">
+		<title>Doctoralia</title>
+		<g fill="#4a5">
+			<path d="m120.29 0.37128h58.53l7.8871 90.768c-50.159 17.598-84.959 36.082-120.59 71.834l-65.478-28.83 17.228-56.981 94.95 22.832z"/>
+			<path d="m214.52 181.47 45.662 78.371-47.322 34.536-47.322-56.675c10.931-22.729 26.013-41.473 48.983-56.232z"/>
+			<path d="m33.952 250.54c86.734-153.75 205.19-163.56 246.57-174.45l19.095 58.446c-59.084 12.988-147.64 50.771-200.91 159.84z"/>
+		</g>
+	</svg></a>
+</footer>
+
+</body>
+</html>
